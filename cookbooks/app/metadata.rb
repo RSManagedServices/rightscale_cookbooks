@@ -21,6 +21,7 @@ depends "app_tomcat"
 depends "db"
 depends "app_django"
 depends "app_jboss"
+depends "app_php54"
 
 recipe "app::install_server",
   "Adds the appserver:active=true, appserver:listen_ip=<ip> and" +
