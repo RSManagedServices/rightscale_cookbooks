@@ -60,7 +60,7 @@
 
   # SSL-specific additions
   SSLEngine on
-  SSLProtocol all -SSLv2
+  SSLProtocol all -SSLv2 -SSLv3
   SSLCipherSuite ALL:!ADH:!EXPORT:!SSLv2:RC4+RSA:+HIGH:+MEDIUM:+LOW
 
   RequestHeader set X_FORWARDED_PROTO 'https'
